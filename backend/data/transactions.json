@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "108159071226ca98ef23de3d",
+    "userId": "11e3782a5adff84f51df0bc6",
+    "amount": 50,
+    "type": "welcome",
+    "description": "Welcome Bonus (Google Login)",
+    "createdAt": "2026-06-14T11:56:29.745Z"
+  },
+  {
+    "_id": "5c563e054c48aa7c87b60d79",
+    "userId": "66a5e77aa95d71dcb4bcdaaa",
+    "amount": 50,
+    "type": "welcome",
+    "description": "Welcome Bonus",
+    "createdAt": "2026-06-14T13:22:21.458Z"
+  }
+]

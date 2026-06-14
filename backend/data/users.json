@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "11e3782a5adff84f51df0bc6",
+    "username": "Golden Striker",
+    "email": "striker9@arena.com",
+    "password": "$2b$10$XgkRY7uy6naK5vYeXvmQk.SG9Xf2jRdN3IRLET.ev7j67wu5.hK3W",
+    "avatar": "avatar5",
+    "tokens": 50,
+    "predictionsCount": 0,
+    "correctPredictions": 0,
+    "winStreak": 0,
+    "unlockedAchievements": [],
+    "isChampion": false,
+    "role": "user",
+    "createdAt": "2026-06-14T11:56:29.728Z"
+  },
+  {
+    "_id": "66a5e77aa95d71dcb4bcdaaa",
+    "username": "pardhiv26",
+    "email": "pardhivdasari6@gmail.com",
+    "password": "$2b$10$VddQSmqvfL.NwCDWBVJgKu36dJrqeS3raFdN/y1maLDLGM5Dt9zou",
+    "avatar": "avatar3",
+    "tokens": 50,
+    "predictionsCount": 0,
+    "correctPredictions": 0,
+    "winStreak": 0,
+    "unlockedAchievements": [],
+    "isChampion": false,
+    "role": "user",
+    "createdAt": "2026-06-14T13:22:21.451Z"
+  }
+]
