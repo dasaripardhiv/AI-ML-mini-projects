@@ -25,18 +25,22 @@ app.get('/', (req, res) => {
   res.json({ message: 'FIFA Predictor Arena API is running!' });
 });
 
-// Seed data and start server
-const startServer = async () => {
+// Seed data and start server locally (not on Vercel serverless functions)
+const initializeServer = async () => {
   try {
     // Seed default matches if database is empty
     await seedMatches();
     
-    app.listen(PORT, () => {
-      console.log(`🚀 FIFA Predictor Arena Backend Server running on port ${PORT}`);
-    });
+    if (!process.env.VERCEL) {
+      app.listen(PORT, () => {
+        console.log(`🚀 FIFA Predictor Arena Backend Server running on port ${PORT}`);
+      });
+    }
   } catch (error) {
-    console.error('Failed to start server:', error);
+    console.error('Failed to initialize server:', error);
   }
 };
 
-startServer();
+initializeServer();
+
+export default app;
