@@ -1,0 +1,16 @@
+# AI Text Generation Chatbot
+
+Built using:
+- Flowise
+- LangChain
+- Hugging Face Models
+- LLM Chains
+
+## Live Demo
+https://cloud.flowiseai.com/chatbot/0e2f7f35-356d-49d1-aa08-595c6236ac72
+
+## Features
+- Text generation
+- Prompt chaining
+- LLM workflow orchestration
+- Flowise visual builder
